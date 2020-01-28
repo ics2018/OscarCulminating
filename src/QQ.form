@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panelQQ" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panelQQ" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelQQ">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblFirstQuestion" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblSecondQuestion" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblThirdQuestion" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFourthQuestion" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFifthQuestion" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="txtUserAnswer5" pref="39" max="32767" attributes="0"/>
+                      <Component id="txtUserAnswer4" max="32767" attributes="0"/>
+                      <Component id="txtUserAnswer3" max="32767" attributes="0"/>
+                      <Component id="txtUserAnswer2" max="32767" attributes="0"/>
+                      <Component id="txtUserAnswer1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
+                          <Component id="bttnCheckAnswers" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblQuote" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                          <Component id="lblHeader" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="166" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblHeader" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblFirstQuestion" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtUserAnswer1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblSecondQuestion" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtUserAnswer2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblThirdQuestion" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtUserAnswer3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblFourthQuestion" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtUserAnswer4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblFifthQuestion" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtUserAnswer5" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="21" max="32767" attributes="0"/>
+                  <Component id="bttnCheckAnswers" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="lblQuote" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblHeader">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Positivism"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFirstQuestion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Are you feeling lonely?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUserAnswer1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSecondQuestion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Are you feeling sad?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUserAnswer2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblThirdQuestion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Are you feeling depressed?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUserAnswer3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFourthQuestion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Are you hurt?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUserAnswer4">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFifthQuestion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Are you feeling angry?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUserAnswer5">
+        </Component>
+        <Component class="javax.swing.JButton" name="bttnCheckAnswers">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Check Answers"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bttnCheckAnswersActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblQuote">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
